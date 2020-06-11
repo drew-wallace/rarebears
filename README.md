@@ -1,7 +1,7 @@
 # rarebears
 
 ## What is it?
-This is my attempt at making something like pandas in Rust.
+This is my attempt at making something like pandas in Rust. This is a work in progress so bear with me 😉
 
 ## What can it do?
 ### Numeric
