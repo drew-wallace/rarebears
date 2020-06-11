@@ -20,7 +20,7 @@ This is my attempt at making something like pandas in Rust. This is a work in pr
 * Series << Series
 * Series >> Series
 
-## How to run it?
+## Example
 ```
-cargo run main.rs
+cargo run --example column_math
 ```

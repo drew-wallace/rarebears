@@ -1,8 +1,9 @@
-#[macro_use]
-mod impl_ops;
-use crate::impl_ops::Dataframe;
-use crate::impl_ops::Columns;
-use crate::impl_ops::Series;
+#[macro_use(series)]
+extern crate rarebears;
+
+use rarebears::Dataframe;
+use rarebears::Columns;
+use rarebears::Series;
 
 fn main() {
 	let a = Series{rows: vec![1, 2, 3]};

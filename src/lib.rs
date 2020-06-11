@@ -69,6 +69,7 @@ impl fmt::Display for Columns {
     }
 }
 
+#[macro_export]
 macro_rules! series {
     ($x:expr, $i:path) => {
         {
